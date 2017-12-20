@@ -1,0 +1,65 @@
+ /* common */
+html{
+	width:100%;
+	background-color:#f6f6f6;
+}
+body{
+	font:12px/1.5 Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
+	color:#999;
+	width:100%;
+}
+
+.clear::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.clear{zoom:1}
+
+.container{
+
+	width:1190px;
+
+	height:100%;
+
+	position:relative;
+
+	left:50%;
+
+	margin-left:-595px;
+}
+
+/* end common */
+
+
+/*购物车*/
+#shopp-car{
+	width:190px;height:35px;
+	position:absolute;right:99px;top:25px;
+	background-color:#fff;
+	box-sizing:border-box;
+	color:#f10215;
+	text-align:center;
+	border:1px solid #e3e4e5;
+	cursor:pointer;
+}
+
+#shopp-car a{
+	color:#f10215;
+	line-height:33px;
+}
+
+#shopp-car i{
+	line-height:33px;
+}
+
+#nums{
+	min-width:12px;height:12px;background-color:#f10215;
+	padding:1px;
+	border-radius:7px;
+	line-height:12px;
+	position:absolute;left:140px;top:5px;
+	font-size:12px;
+	color:#fff;
+}

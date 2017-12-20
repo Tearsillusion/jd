@@ -1,0 +1,2012 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"> <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<title>hey 闪购</title>
+	<link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="./images/jd.ico">
+	<link rel="stylesheet" href="css/jdsg.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/jdsg-top.js"></script>
+	<script>
+		$(function () {
+
+			/*--------------------------底部预告栏----------------------*/
+
+			$('.wraperfour .wful li').mouseenter(function(){
+				$(this).addClass('active').siblings().removeClass('active');
+				// 提取当前li的下标
+				// index()
+				var index=$(this).index();
+				$('.nb-mc .tabcon').eq(index)
+						.addClass('selected')
+						.siblings().removeClass('selected')
+			})
+
+			/*-------------------------顶部侧边栏-----------------------*/
+			$('.wraperone .woul li').mouseenter(function(){
+				$(this).addClass('active').siblings().removeClass('active');
+				// 提取当前li的下标
+				// index()
+				var index=$(this).index();
+				$('.wraperone .tab-mc').eq(index).addClass('selected')
+						.siblings().removeClass('selected');
+
+			})
+
+		})
+	</script>
+</head>
+<body>
+
+	<header class="shortcut" id="head">
+		<div class="in_shortcut">
+			<ul class="uleft">
+				<li>
+					<a href=""><span class="glyphicon glyphicon-home"></span>&nbsp;京东首页</a>
+				</li>
+			</ul>
+			<ul class="uright">
+				<li class="fore1">
+					<a href="">你好,请登录</a>&nbsp;&nbsp;<a href="">免费注册</a>
+				</li>
+				<li class="fore2">
+					<a href="">我的订单</a>
+				</li>
+				<li class="fore3">
+					<span class="glyphicon glyphicon-phone"></span>
+					<a href="">手机闪购</a>
+					<span class="glyphicon glyphicon-menu-down"></span>
+				</li>
+			</ul>
+		</div>
+	</header>
+
+	<section class="header">
+		<div class="clearfix">
+			<div class="mod_brand">
+				<a href=""><img src="images/jdsg-img/header01.jpg" alt=""></a>
+			</div>
+			<div class="ad_brand">
+				<a href=""><img src="images/jdsg-img/header02.jpg" alt=""></a>
+			</div>
+			<div class="mod_service">
+				<a href=""><img src="images/jdsg-img/header03.jpg" alt=""></a>
+			</div>
+			<div class="shop_bag">
+				<!--<span class="glyphicon glyphicon-home"></span>-->
+				<img src="images/jdsg-img/shopbag.jpg" alt="">
+				<div class="name">购物袋</div>
+				<div class="arrow"></div>
+			</div>
+		</div>
+		<div class="nav">
+			<div class="in_nav">
+				<ul>
+					<li><a href="">今日上新</a></li>
+					<li><a href="">潮流服饰</a></li>
+					<li><a href="">品质鞋包</a></li>
+					<li><a href="">运动户外</a></li>
+					<li><a href="">居家生活</a></li>
+					<li><a href="">母婴童装</a></li>
+					<li><a href="">钟表奢汇</a></li>
+					<li><a href="">个护美妆</a></li>
+					<li><a href="">食品酒水</a></li>
+					<li><a href="">3C数码</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section class="wraperone" id="one">
+		<div class="ctop">
+
+			<!--ctopleft-->
+			<div class="ctopleft">
+				<!--title-->
+				<div class="title">
+					<img src="images/jdsg-img/wraperone1.png" alt="">
+				</div>
+				<!--item1-->
+				<div class="leftitem itemone">
+					<div class="info infoone">
+						<div class="brand-logo">
+							<a href=""><img src="images/jdsg-img/wrponeinfo1.png" alt=""></a>
+						</div>
+						<div class="short-line"></div>
+						<div class="brand-active">
+							<a href="">kappa运动专场</a>
+							<span>满499减99</span>
+						</div>
+						<div class="brand-rebate">
+							<a href="">立即选购</a>
+						</div>
+					</div>
+					<div class="itemimg imgone">
+						<a href=""><img src="images/jdsg-img/wraperone1.jpg" alt=""></a>
+						<div class="countdown-tag">
+							<span class="tick-logo"></span>
+							<p>剩2天</p>
+							<span class="arrow-circle"></span>
+						</div>
+					</div>
+				</div>
+				<!--item2-->
+				<div class="leftitem itemtwo">
+					<div class="info infotwo">
+						<div class="brand-logo">
+							<a href=""><img src="images/jdsg-img/wrponeinfo2.png" alt=""></a>
+						</div>
+						<div class="short-line"></div>
+						<div class="brand-active">
+							<a href="">DW钟表专场</a>
+							<span>低至840元</span>
+						</div>
+						<div class="brand-rebate">
+							<a href="">立即选购</a>
+						</div>
+					</div>
+					<div class="itemimg imgtwo">
+						<a href=""><img src="images/jdsg-img/wraperone2.jpg" alt=""></a>
+						<div class="countdown-tag">
+							<span class="tick-logo"></span>
+							<p>剩2天</p>
+							<span class="arrow-circle"></span>
+						</div>
+					</div>
+				</div>
+				<!--item3-->
+				<div class="leftitem itemthree">
+					<div class="info infothree">
+						<div class="brand-logo">
+							<a href=""><img src="images/jdsg-img/wrponeinfo3.png" alt=""></a>
+						</div>
+						<div class="short-line"></div>
+						<div class="brand-active">
+							<a href="">珂兰珠宝专场</a>
+							<span>低至253元</span>
+						</div>
+						<div class="brand-rebate">
+							<a href="">立即选购</a>
+						</div>
+					</div>
+					<div class="itemimg imgthree">
+						<a href=""><img src="images/jdsg-img/wraperone3.jpg" alt=""></a>
+						<div class="countdown-tag">
+							<span class="tick-logo"></span>
+							<p>剩2天</p>
+							<span class="arrow-circle"></span>
+						</div>
+					</div>
+				</div>
+				<!--item4-->
+				<div class="leftitem itemfour">
+					<div class="info infofour">
+						<div class="brand-logo">
+							<a href=""><img src="images/jdsg-img/wrponeinfo4.png" alt=""></a>
+						</div>
+						<div class="short-line"></div>
+						<div class="brand-active">
+							<a href="">梦妆爱情美妆专场</a>
+							<span>低至94.5元</span>
+						</div>
+						<div class="brand-rebate">
+							<a href="">立即选购</a>
+						</div>
+					</div>
+					<div class="itemimg imgfour">
+						<a href="">
+							<img src="images/jdsg-img/wraperone4.jpg" alt="">
+						</a>
+						<div class="countdown-tag">
+							<span class="tick-logo"></span>
+							<p>剩2天</p>
+							<span class="arrow-circle"></span>
+						</div>
+					</div>
+				</div>
+				<!--item5-->
+				<div class="leftitem itemfive">
+					<div class="info infofive">
+						<div class="brand-logo">
+							<a href=""><img src="images/jdsg-img/wrponeinfo5.png" alt=""></a>
+						</div>
+						<div class="short-line"></div>
+						<div class="brand-active">
+							<a href="">fed鞋靴专场</a>
+							<span>低至389元</span>
+						</div>
+						<div class="brand-rebate">
+							<a href="">立即选购</a>
+						</div>
+					</div>
+					<div class="itemimg imgfive">
+						<a href="">
+							<img src="images/jdsg-img/wraperone5.jpg" alt="">
+						</a>
+						<div class="countdown-tag">
+							<span class="tick-logo"></span>
+							<p>剩2天</p>
+							<span class="arrow-circle"></span>
+						</div>
+					</div>
+				</div>
+				<!--item6-->
+				<div class="leftitem itemsix">
+					<div class="info infosix">
+						<div class="brand-logo">
+							<a href=""><img src="images/jdsg-img/wrponeinfo6.png" alt=""></a>
+						</div>
+						<div class="short-line"></div>
+						<div class="brand-active">
+							<a href="">秋水伊人女装专场</a>
+							<span>低至89元</span>
+						</div>
+						<div class="brand-rebate">
+							<a href="">立即选购</a>
+						</div>
+					</div>
+					<div class="itemimg imgsix">
+						<a href="">
+							<img src="images/jdsg-img/wraperone6.jpg" alt="">
+						</a>
+						<div class="countdown-tag">
+							<span class="tick-logo"></span>
+							<p>剩2天</p>
+							<span class="arrow-circle"></span>
+						</div>
+					</div>
+				</div>
+				<div class="more-btn"></div>
+			</div>
+
+			<!--ctopright-->
+			<div class="ctopright">
+				<div class="sidebar">
+					<div class="tab">
+
+						<ul class="tab-mt woul">
+							<li class="fore1 active">
+								<span>单品TOP10</span>
+								<b></b>
+								<!--<b class="being"></b>-->
+							</li>
+							<li class="fore2">
+								<span>品牌推荐</span>
+								<b></b>
+							</li>
+						</ul>
+
+						<div class="tab-mc selected">
+							<ul class="list">
+								<li class="single">
+									<a href="">
+										<span class="num num1"></span>
+										<img class="prd-img" src="images/jdsg-img/wraperone7.jpg" alt="">
+										<div class="detail">
+											<h2 class="">三只松鼠</h2>
+											<p class="des">【京东超市】三只松鼠 坚果炒货 零食蚕豆牛肉味 兰花豆205g/袋</p>
+											<p class="yen">¥16.9</p>
+											<p class="pnum">已售件数：12317</p>
+										</div>
+									</a>
+								</li>
+								<li class="single">
+									<a href="">
+										<span class="num num2"></span>
+										<img class="prd-img" src="images/jdsg-img/wraperone8.jpg" alt="">
+										<div class="detail">
+											<h2 class="">三只松鼠</h2>
+											<p class="des">【京东超市】三只松鼠坚果炒货零食每日坚果手剥巴旦木120g</p>
+											<p class="yen">¥19.9</p>
+											<p class="pnum">已售件数：7213</p>
+										</div>
+									</a>
+								</li>
+								<li class="single">
+									<a href="">
+										<span class="num num3"></span>
+										<img class="prd-img" src="images/jdsg-img/wraperone9.jpg" alt="">
+										<div class="detail">
+											<h2 class="">三只松鼠</h2>
+											<p class="des">【京东超市】三只松鼠坚果炒货每日坚果碧根果120g</p>
+											<p class="yen">¥23.9</p>
+											<p class="pnum">已售件数：6825</p>
+										</div>
+									</a>
+								</li>
+								<li class="single">
+									<a href="">
+										<span class="num num4"></span>
+										<img class="prd-img" src="images/jdsg-img/wraperone10.jpg" alt="">
+										<div class="detail">
+											<h2 class="">三只松鼠</h2>
+											<p class="des">【京东超市】三只松鼠  蜜饯果干 休闲零食 芒果干116g/袋</p>
+											<p class="yen">¥9.9</p>
+											<p class="pnum">已售件数：6762</p>
+										</div>
+									</a>
+								</li>
+								<li class="single">
+									<a href="">
+										<span class="num num5"></span>
+										<img class="prd-img" src="images/jdsg-img/wraperone11.jpg" alt="">
+										<div class="detail">
+											<h2 class="">三只松鼠</h2>
+											<p class="des">【京东超市】三只松鼠休闲零食特产炒货小吃_蟹香蚕豆110g</p>
+											<p class="yen">¥9.9</p>
+											<p class="pnum">已售件数：6358</p>
+										</div>
+									</a>
+								</li>
+								<li class="single">
+									<a href="">
+										<span class="num num6"></span>
+										<img class="prd-img" src="images/jdsg-img/wraperone12.jpg" alt="">
+										<div class="detail">
+											<h2 class="">三只松鼠</h2>
+											<p class="des">【京东超市】三只松鼠坚果炒货零食每日坚果开口松子100g</p>
+											<p class="yen">¥23.9</p>
+											<p class="pnum">已售件数：6162</p>
+										</div>
+									</a>
+								</li>
+								<li class="single">
+									<a href="">
+										<span class="num num7"></span>
+										<img class="prd-img" src="images/jdsg-img/wraperone13.jpg" alt="">
+										<div class="detail">
+											<h2 class="">三只松鼠</h2>
+											<p class="des">【京东超市】三只松鼠坚果炒货零食每日坚果开心果100g</p>
+											<p class="yen">¥23.9</p>
+											<p class="pnum">已售件数：5838</p>
+										</div>
+									</a>
+								</li>
+								<li class="single">
+									<a href="">
+										<span class="num num8"></span>
+										<img class="prd-img" src="images/jdsg-img/wraperone14.jpg" alt="">
+										<div class="detail">
+											<h2 class="">三只松鼠</h2>
+											<p class="des">【京东超市】三只松鼠休闲零食特产坚果炒货大开口榛子原味185g</p>
+											<p class="yen">¥18.9</p>
+											<p class="pnum">已售件数：5674</p>
+										</div>
+									</a>
+								</li>
+								<li class="single">
+									<a href="">
+										<span class="num num9"></span>
+										<img class="prd-img" src="images/jdsg-img/wraperone15.jpg" alt="">
+										<div class="detail">
+											<h2 class="">三只松鼠</h2>
+											<p class="des">【京东超市】三只松鼠 坚果炒货 零食奶油味 夏威夷果265g/袋</p>
+											<p class="yen">¥23.9</p>
+											<p class="pnum">已售件数：4711</p>
+										</div>
+									</a>
+								</li>
+								<li class="single">
+									<a href="">
+										<span class="num num10"></span>
+										<img class="prd-img" src="images/jdsg-img/wraperone16.jpg" alt="">
+										<div class="detail">
+											<h2 class="">三只松鼠</h2>
+											<p class="des">【京东超市】三只松鼠 饼干蛋糕 零食糕点 蔓越莓曲奇饼260g/袋</p>
+											<p class="yen">¥13.9</p>
+											<p class="pnum">已售件数：4265</p>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="tab-mc two">
+							<ul class="list">
+								<li class="brand">
+									<a href="">
+										<div class="brand-detail">
+											<div class="brand-detail-inner">
+												<span class="brand-num brand-num1"></span>
+												<img src="images/jdsg-img/wraperone17.png" alt="">
+												<span class="brand-name">三只松鼠休闲零食专场</span>
+											</div>
+										</div>
+										<img class="brand-img" src="images/jdsg-img/wraperone17.jpg" alt="">
+									</a>
+								</li>
+								<li class="brand">
+									<a href="">
+										<div class="brand-detail">
+											<div class="brand-detail-inner">
+												<span class="brand-num brand-num2"></span>
+												<img src="images/jdsg-img/wraperone18.png" alt="">
+												<span class="brand-name">海飞丝洗发护发专场</span>
+											</div>
+										</div>
+										<img class="brand-img" src="images/jdsg-img/wraperone18.jpg" alt="">
+									</a>
+								</li>
+								<li class="brand">
+									<a href="">
+										<div class="brand-detail">
+											<div class="brand-detail-inner">
+												<span class="brand-num brand-num3"></span>
+												<img src="images/jdsg-img/wraperone19.png" alt="">
+												<span class="brand-name">桂格食品饮料专场</span>
+											</div>
+										</div>
+										<img class="brand-img" src="images/jdsg-img/wraperone19.jpg" alt="">
+									</a>
+								</li>
+								<li class="brand">
+									<a href="">
+										<div class="brand-detail">
+											<div class="brand-detail-inner">
+												<span class="brand-num brand-num4"></span>
+												<img src="images/jdsg-img/wraperone20.png" alt="">
+												<span class="brand-name">同仁堂医药健康专场</span>
+											</div>
+										</div>
+										<img class="brand-img" src="images/jdsg-img/wraperone20.jpg" alt="">
+									</a>
+								</li>
+								<li class="brand">
+									<a href="">
+										<div class="brand-detail">
+											<div class="brand-detail-inner">
+												<span class="brand-num brand-num5"></span>
+												<img src="images/jdsg-img/wraperone21.png" alt="">
+												<span class="brand-name">炊大皇厨具专场</span>
+											</div>
+										</div>
+										<img class="brand-img" src="images/jdsg-img/wraperone21.jpg" alt="">
+									</a>
+								</li>
+								<li class="brand">
+									<a href="">
+										<div class="brand-detail">
+											<div class="brand-detail-inner">
+												<span class="brand-num brand-num6"></span>
+												<img src="images/jdsg-img/wraperone22.png" alt="">
+												<span class="brand-name">施华蔻自营洗护专场</span>
+											</div>
+										</div>
+										<img class="brand-img" src="images/jdsg-img/wraperone22.jpg" alt="">
+									</a>
+								</li>
+								<li class="brand">
+									<a href="">
+										<div class="brand-detail">
+											<div class="brand-detail-inner">
+												<span class="brand-num brand-num7"></span>
+												<img src="images/jdsg-img/wraperone23.png" alt="">
+												<span class="brand-name">vivo手机专场</span>
+											</div>
+										</div>
+										<img class="brand-img" src="images/jdsg-img/wraperone23.jpg" alt="">
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="wrapertwo">
+		<div class="w">
+			<ul class="act-last">
+				<li>
+					<div class="act-img">
+						<a href=""><img src="images/jdsg-img/wrapertwo1.jpg" alt=""></a>
+						<div class="countdown-tag">
+							<span class="tick-logo"></span>
+							<p>剩2天</p>
+							<span class="arrow-circle"></span>
+						</div>
+					</div>
+					<div class="act-detail">
+						<div class="inner">
+							<div class="logo">
+								<img src="images/jdsg-img/wrapertwo1.png" alt="">
+							</div>
+							<h3><a href="">稻草人男女包专场</a></h3>
+							<span class="discount">低至38元</span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="act-img">
+						<a href=""><img src="images/jdsg-img/wrapertwo2.jpg" alt=""></a>
+						<img class="mi-icon" src="images/jdsg-img/logo.png" alt="">
+						<div class="countdown-tag">
+							<span class="tick-logo"></span>
+							<p>剩2天</p>
+							<span class="arrow-circle"></span>
+						</div>
+					</div>
+					<div class="act-detail">
+						<div class="inner">
+							<div class="logo">
+								<img src="images/jdsg-img/wrapertwo2.png" alt="">
+							</div>
+							<h3><a href="">赛菲尔自营珠宝专场</a></h3>
+							<span class="discount">低至197元</span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="act-img">
+						<a href=""><img src="images/jdsg-img/wrapertwo3.jpg" alt=""></a>
+						<img class="mi-icon" src="images/jdsg-img/logo.png" alt="">
+						<div class="countdown-tag">
+							<span class="tick-logo"></span>
+							<p>剩2天</p>
+							<span class="arrow-circle"></span>
+						</div>
+					</div>
+					<div class="act-detail">
+						<div class="inner">
+							<div class="logo">
+								<img src="images/jdsg-img/wrapertwo3.png" alt="">
+							</div>
+							<h3><a href="">德亚进口牛奶专场</a></h3>
+							<span class="discount">低至19.9元</span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="act-img">
+						<a href=""><img src="images/jdsg-img/wrapertwo4.jpg" alt=""></a>
+						<div class="countdown-tag">
+							<span class="tick-logo"></span>
+							<p>剩2天</p>
+							<span class="arrow-circle"></span>
+						</div>
+					</div>
+					<div class="act-detail">
+						<div class="inner">
+							<div class="logo">
+								<img src="images/jdsg-img/wrapertwo4.png" alt="">
+							</div>
+							<h3><a href="">海青蓝女装专场</a></h3>
+							<span class="discount">低至108元</span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="act-img">
+						<a href=""><img src="images/jdsg-img/wrapertwo5.jpg" alt=""></a>
+						<img class="mi-icon" src="images/jdsg-img/logo.png" alt="">
+						<div class="countdown-tag">
+							<span class="tick-logo"></span>
+							<p>剩2天</p>
+							<span class="arrow-circle"></span>
+						</div>
+					</div>
+					<div class="act-detail">
+						<div class="inner">
+							<div class="logo">
+								<img src="images/jdsg-img/wrapertwo5.png" alt="">
+							</div>
+							<h3><a href="">HelloKitty七夕礼品专场</a></h3>
+							<span class="discount">低至9.9元</span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="act-img">
+						<a href=""><img src="images/jdsg-img/wrapertwo6.jpg" alt=""></a>
+						<div class="countdown-tag">
+							<span class="tick-logo"></span>
+							<p>剩2天</p>
+							<span class="arrow-circle"></span>
+						</div>
+					</div>
+					<div class="act-detail">
+						<div class="inner">
+							<div class="logo">
+								<img src="images/jdsg-img/wrapertwo6.png" alt="">
+							</div>
+							<h3><a href="">汤臣倍健医药健康专场</a></h3>
+							<span class="discount">低至6折</span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="act-img">
+						<a href=""><img src="images/jdsg-img/wrapertwo7.jpg" alt=""></a>
+						<div class="countdown-tag">
+							<span class="tick-logo"></span>
+							<p>剩2天</p>
+							<span class="arrow-circle"></span>
+						</div>
+					</div>
+					<div class="act-detail">
+						<div class="inner">
+							<div class="logo">
+								<img src="images/jdsg-img/wrapertwo7.png" alt="">
+							</div>
+							<h3><a href="">levis男装专场</a></h3>
+							<span class="discount">低至119元</span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="act-img">
+						<a href=""><img src="images/jdsg-img/wrapertwo8.jpg" alt=""></a>
+						<img class="mi-icon" src="images/jdsg-img/logo.png" alt="">
+						<div class="countdown-tag">
+							<span class="tick-logo"></span>
+							<p>剩2天</p>
+							<span class="arrow-circle"></span>
+						</div>
+					</div>
+					<div class="act-detail">
+						<div class="inner">
+							<div class="logo">
+								<img src="images/jdsg-img/wrapertwo8.png" alt="">
+							</div>
+							<h3><a href="">美即面膜专场</a></h3>
+							<span class="discount">低至39元</span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="act-img">
+						<a href=""><img src="images/jdsg-img/wrapertwo9.jpg" alt=""></a>
+						<img class="mi-icon" src="images/jdsg-img/logo.png" alt="">
+						<div class="countdown-tag">
+							<span class="tick-logo"></span>
+							<p>剩2天</p>
+							<span class="arrow-circle"></span>
+						</div>
+					</div>
+					<div class="act-detail">
+						<div class="inner">
+							<div class="logo">
+								<img src="images/jdsg-img/wrapertwo9.png" alt="">
+							</div>
+							<h3><a href="">法国依云矿泉水专场</a></h3>
+							<span class="discount">低至39.9元</span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="act-img">
+						<a href=""><img src="images/jdsg-img/wrapertwo10.jpg" alt=""></a>
+						<div class="countdown-tag">
+							<span class="tick-logo"></span>
+							<p>剩2天</p>
+							<span class="arrow-circle"></span>
+						</div>
+					</div>
+					<div class="act-detail">
+						<div class="inner">
+							<div class="logo">
+								<img src="images/jdsg-img/wrapertwo10.png" alt="">
+							</div>
+							<h3><a href="">欧诗漫珍珠护肤专场</a></h3>
+							<span class="discount">低至19.9元</span>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="wraperthree" id="three">
+		<div class="end">
+			<div class="end-buying">
+				<div class="end-mt">
+					<i class="line"></i>
+					<div class="box">
+						<p>所剩不多，手慢无</p>
+					</div>
+				</div>
+				<div class="end-mc">
+					<div class="end-item">
+						<div class="end-img">
+							<a href=""><img src="images/jdsg-img/wraperthree1.jpg" alt=""></a>
+						</div>
+						<div class="end-info">
+							<div class="rebate">
+								<div class="reinfo">
+									<span>低至</span>
+									<strong>99</strong>
+									<!--<span>元</span>-->
+								</div>
+							</div>
+							<div class="endtime">
+								<div class="box">
+									<div class="bg"></div>
+									<div class="con">
+										<span class="tick-logo"></span>
+										仅剩最后一天!
+									</div>
+								</div>
+							</div>
+							<div class="logo">
+								<a href="">
+									<img src="images/jdsg-img/wraperthree1.png" alt="">
+									<span>施华洛世奇时尚饰品专场</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="end-item">
+						<div class="end-img">
+							<a href=""><img src="images/jdsg-img/wraperthree2.jpg" alt=""></a>
+						</div>
+						<div class="end-info">
+							<div class="rebate">
+								<div class="reinfo">
+									<span>低至</span>
+									<strong>199</strong>
+									<!--<span>元</span>-->
+								</div>
+							</div>
+							<div class="endtime">
+								<div class="box">
+									<div class="bg"></div>
+									<div class="con">
+										<span class="tick-logo"></span>
+										仅剩最后一天!
+									</div>
+								</div>
+							</div>
+							<div class="logo">
+								<a href="">
+									<img src="images/jdsg-img/wraperthree2.png" alt="">
+									<span>思加图女鞋专场</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="end-item">
+						<div class="end-img">
+							<a href=""><img src="images/jdsg-img/wraperthree3.jpg" alt=""></a>
+						</div>
+						<div class="end-info">
+							<div class="rebate">
+								<div class="reinfo">
+									<span>低至</span>
+									<strong>6</strong>
+									<!--<span>元</span>-->
+								</div>
+							</div>
+							<div class="endtime">
+								<div class="box">
+									<div class="bg"></div>
+									<div class="con">
+										<span class="tick-logo"></span>
+										仅剩最后一天!
+									</div>
+								</div>
+							</div>
+							<div class="logo">
+								<a href="">
+									<img src="images/jdsg-img/wraperthree3.png" alt="">
+									<span>一叶子面膜护肤专场</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="end-item">
+						<div class="end-img">
+							<a href=""><img src="images/jdsg-img/wraperthree4.jpg" alt=""></a>
+						</div>
+						<div class="end-info">
+							<div class="rebate">
+								<div class="reinfo">
+									<span>低至</span>
+									<strong>29.9</strong>
+									<!--<span>元</span>-->
+								</div>
+							</div>
+							<div class="endtime">
+								<div class="box">
+									<div class="bg"></div>
+									<div class="con">
+										<span class="tick-logo"></span>
+										仅剩最后一天!
+									</div>
+								</div>
+							</div>
+							<div class="logo">
+								<a href="">
+									<img src="images/jdsg-img/wraperthree4.png" alt="">
+									<span>PASS女装专场</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="end-item">
+						<div class="end-img">
+							<a href=""><img src="images/jdsg-img/wraperthree5.jpg" alt=""></a>
+						</div>
+						<div class="end-info">
+							<div class="rebate">
+								<div class="reinfo">
+									<span>低至</span>
+									<strong>89</strong>
+									<!--<span>元</span>-->
+								</div>
+							</div>
+							<div class="endtime">
+								<div class="box">
+									<div class="bg"></div>
+									<div class="con">
+										<span class="tick-logo"></span>
+										仅剩最后一天!
+									</div>
+								</div>
+							</div>
+							<div class="logo">
+								<a href="">
+									<img src="images/jdsg-img/wraperthree5.png" alt="">
+									<span>雅莹女装专场</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="end-item">
+						<div class="end-img">
+							<a href=""><img src="images/jdsg-img/wraperthree6.jpg" alt=""></a>
+						</div>
+						<div class="end-info">
+							<div class="rebate">
+								<div class="reinfo">
+									<span>低至</span>
+									<strong>2399</strong>
+									<!--<span>元</span>-->
+								</div>
+							</div>
+							<div class="endtime">
+								<div class="box">
+									<div class="bg"></div>
+									<div class="con">
+										<span class="tick-logo"></span>
+										仅剩最后一天!
+									</div>
+								</div>
+							</div>
+							<div class="logo">
+								<a href="">
+									<img src="images/jdsg-img/wraperthree6.png" alt="">
+									<span>Apple手机闪购专场</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="end-item">
+						<div class="end-img">
+							<a href=""><img src="images/jdsg-img/wraperthree7.jpg" alt=""></a>
+						</div>
+						<div class="end-info">
+							<div class="rebate">
+								<div class="reinfo">
+									<span>低至</span>
+									<strong>1098</strong>
+									<!--<span>元</span>-->
+								</div>
+							</div>
+							<div class="endtime">
+								<div class="box">
+									<div class="bg"></div>
+									<div class="con">
+										<span class="tick-logo"></span>
+										仅剩最后一天!
+									</div>
+								</div>
+							</div>
+							<div class="logo">
+								<a href="">
+									<img src="images/jdsg-img/wraperthree7.png" alt="">
+									<span>vivo手机专场</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="end-item">
+						<div class="end-img">
+							<a href=""><img src="images/jdsg-img/wraperthree8.jpg" alt=""></a>
+						</div>
+						<div class="end-info">
+							<div class="rebate">
+								<div class="reinfo">
+									<span>低至</span>
+									<strong>8.9</strong>
+									<!--<span>元</span>-->
+								</div>
+							</div>
+							<div class="endtime">
+								<div class="box">
+									<div class="bg"></div>
+									<div class="con">
+										<span class="tick-logo"></span>
+										仅剩最后一天!
+									</div>
+								</div>
+							</div>
+							<div class="logo">
+								<a href="">
+									<img src="images/jdsg-img/wraperthree8.png" alt="">
+									<span>三只松鼠休闲零食专场</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="end-item">
+						<div class="end-img">
+							<a href=""><img src="images/jdsg-img/wraperthree9.jpg" alt=""></a>
+						</div>
+						<div class="end-info">
+							<div class="rebate">
+								<div class="reinfo">
+									<span>最高直降</span>
+									<strong>800</strong>
+									<!--<span>元</span>-->
+								</div>
+							</div>
+							<div class="endtime">
+								<div class="box">
+									<div class="bg"></div>
+									<div class="con">
+										<span class="tick-logo"></span>
+										仅剩最后一天!
+									</div>
+								</div>
+							</div>
+							<div class="logo">
+								<a href="">
+									<img src="images/jdsg-img/wraperthree9.png" alt="">
+									<span>索尼手机专场</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="end-item">
+						<div class="end-img">
+							<a href=""><img src="images/jdsg-img/wraperthree10.jpg" alt=""></a>
+						</div>
+						<div class="end-info">
+							<div class="rebate">
+								<div class="reinfo">
+									<span>低至</span>
+									<strong>38</strong>
+									<!--<span>元</span>-->
+								</div>
+							</div>
+							<div class="endtime">
+								<div class="box">
+									<div class="bg"></div>
+									<div class="con">
+										<span class="tick-logo"></span>
+										仅剩最后一天!
+									</div>
+								</div>
+							</div>
+							<div class="logo">
+								<a href="">
+									<img src="images/jdsg-img/wraperthree10.png" alt="">
+									<span>稻草人男女包专场</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section id=>
+
+	<section class="wraperfour" id="four">
+		<div class="notice">
+			<div class="notice-buying">
+				<div class="nb-mt">
+					<ul class="tab wful">
+						<li class="fore1 active">
+							今日主打
+							<i class="arrow-down"></i>
+						</li>
+						<li class="fore2">
+							明天预告
+							<i class="arrow-down"></i>
+						</li>
+						<li class="fore3">
+							后天预告
+							<i class="arrow-down"></i>
+						</li>
+					</ul>
+				</div>
+				<div class="nb-mc">
+					<div class="tabcon selected">
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour1.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">欧米茄腕表专场</a>
+									</div>
+									<div class="brand-rebate"></div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour1.png" alt=""></a>
+									</div>
+								</div>
+								<!--<div class="pm-remind">
+
+								</div>-->
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour2.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">LOWA户外专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour2.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour3.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">凯浦琳七夕自营专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour3.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour4.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">蔻驰时尚轻奢专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour4.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour5.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">雷鹏配饰专场专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour5.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour6.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">堡狮龙男装专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour6.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour7.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">雪肌精护肤美妆专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour7.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour8.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">匡威运动鞋服专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour8.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour9.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">毛菇小象女装专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour9.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour10.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">尚都比拉女装专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour10.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour11.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">圣迪奥女装专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour11.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour12.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">Ipanema巴西女鞋专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour12.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour13.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">生活在左女装专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour13.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour14.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">梵希曼会员狂欢日</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour14.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour15.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">VH女包专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour15.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="tabcon">
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour16.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">浪漫七夕遇见爱情</a>
+									</div>
+									<div class="brand-rebate"></div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour16.png" alt=""></a>
+									</div>
+								</div>
+								<!--<div class="pm-remind">
+
+								</div>-->
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour17.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">美骆世家户外专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour17.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour18.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">沙驰女鞋专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour18.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour19.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">音米开学季专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour19.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour20.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">七夕璀璨馈赠</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour20.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour21.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">达尔丽睡衣专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour21.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour22.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">Discovery户外专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour22.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour23.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">让运动更时尚</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour23.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour24.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">特步男装专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour24.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour25.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">MIKIBANA女装专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour25.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour26.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">FILA优品特惠专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour26.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour27.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">红豆男装专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour27.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour28.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">跟你一起迎开学</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour28.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour29.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">尼尚七夕表白季</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour29.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour30.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">秋装特卖专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour30.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="tabcon">
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour31.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">美的家用电器专场</a>
+									</div>
+									<div class="brand-rebate"></div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour31.png" alt=""></a>
+									</div>
+								</div>
+								<!--<div class="pm-remind">
+
+								</div>-->
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour32.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">美的家用电器专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour32.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour33.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">范德安户外专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour33.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour34.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">自营眼镜专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour34.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour35.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">楼兰蜜语 爆款直降</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour35.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour36.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">CK轻奢腕表专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour36.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour37.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">金利来箱包专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour37.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour38.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">高端巧克力专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour38.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour39.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">一叶子自营护肤专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour39.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour40.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">唐狮男装专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour40.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour41.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">乔丹运动专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour41.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour42.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">七夕·妻喜老庙黄金</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour42.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour43.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">Kappa运动专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour43.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour44.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">斯凯奇运动专场</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour44.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pop-mod">
+							<div class="pm-box">
+								<div class="pm-img">
+									<a href=""><img src="images/jdsg-img/wraperfour45.jpg" alt=""></a>
+								</div>
+								<div class="pm-info">
+									<div class="brand-active">
+										<a href="">性感七夕 约惠心机</a>
+									</div>
+									<div class="brand-rebate">
+
+									</div>
+									<div class="brand-logo">
+										<a href=""><img src="images/jdsg-img/wraperfour45.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="float" class="nav_float" >
+		<div class="w">
+			<a href="" class="nav_logo"></a>
+			<ul class="nav_ul">
+				<li class="curr">
+					<a href="javascript:;">今日上新</a>
+				</li>
+				<li channelid="1">
+					<a href="">
+						<div class="nav-txt">
+							<span>潮流服饰</span>
+							<img src="images/jdsg-img/main-attentionfloat.png" alt="" class="main-attention">
+						</div>
+					</a>
+				</li>
+				<li channelid="2">
+					<a href="">
+						<div class="nav-txt">
+							<span>品质鞋包</span>
+							<img src="images/jdsg-img/main-attentionfloat.png" alt="" class="main-attention">
+						</div>
+					</a>
+				</li>
+				<li channelid="3">
+					<a href="">
+						<div class="nav-txt">
+							<span>运动户外</span>
+							<img src="images/jdsg-img/main-attentionfloat.png" alt="" class="main-attention">
+						</div>
+					</a>
+				</li>
+				<li channelid="4">
+					<a href="">
+						<div class="nav-txt">
+							<span>居家生活</span>
+							<img src="images/jdsg-img/main-attentionfloat.png" alt="" class="main-attention">
+						</div>
+					</a>
+				</li>
+				<li channelid="5">
+					<a href="">
+						<div class="nav-txt">
+							<span>母婴童装</span>
+							<img src="images/jdsg-img/main-attentionfloat.png" alt="" class="main-attention">
+						</div>
+					</a>
+				</li>
+				<li channelid="6">
+					<a href="">
+						<div class="nav-txt">
+							<span>钟表奢汇</span>
+							<img src="images/jdsg-img/main-attentionfloat.png" alt="" class="main-attention">
+						</div>
+					</a>
+				</li>
+				<li channelid="7">
+					<a href="">
+						<div class="nav-txt">
+							<span>个护美妆</span>
+							<img src="images/jdsg-img/main-attentionfloat.png" alt="" class="main-attention">
+						</div>
+					</a>
+				</li>
+				<li channelid="8">
+					<a href="">
+						<div class="nav-txt">
+							<span>食品酒水</span>
+							<img src="images/jdsg-img/main-attentionfloat.png" alt="" class="main-attention">
+						</div>
+					</a>
+				</li>
+				<li channelid="9">
+					<a href="">
+						<div class="nav-txt">
+							<span>3C数码</span>
+							<img src="images/jdsg-img/main-attentionfloat.png" alt="" class="main-attention">
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<section id="fix" class="quick">
+		<a href="#one" class="fore fore1">今日上新</a>
+		<a href="#three" class="fore fore2">最后疯抢</a>
+		<a href="#four" class="fore fore3">活动预告</a>
+		<a href="#five" id="getPresent" class="fore fore4">
+			<span>更多信息</span>
+		</a>
+		<a href="#head" class="quick-backtop">
+			<span class="top-txt"></span>
+		</a>
+	</section>
+
+	<footer id="five">
+		<div class="grid">
+			<div class="agree">
+				<ul class="clearfix">
+					<li class="lone">
+						<span>货到付款</span>
+					</li>
+					<li class="ltwo">
+						<span>7天无条件退货</span>
+					</li>
+					<li class="lthree">
+						<span>100%正品保证</span>
+					</li>
+				</ul>
+			</div>
+			<div class="copy">
+				<p>
+					<a href="">关于我们</a>
+					<span>|</span>
+					<a href="">联系我们</a>
+					<span>|</span>
+					<a href="">人才招聘</a>
+					<span>|</span>
+					<a href="">商家入驻</a>
+					<span>|</span>
+					<a href="">广告服务</a>
+					<span>|</span>
+					<a href="">手机京东</a>
+					<span>|</span>
+					<a href="">友情链接</a>
+					<span>|</span>
+					<a href="">销售联盟</a>
+					<span>|</span>
+					<a href="">京东社区</a>
+					<span>|</span>
+					<a href="">京东公益</a>
+					<span>|</span>
+					<a href="">闪购售后政策</a>
+					<span>|</span>
+					<a href="">闪购退货流程</a>
+				</p>
+				<p>
+					北京市公安局朝阳分局备案编号110105014669
+					<span>|</span>
+					京ICP证070359号
+					<span>|</span>
+					互联网药品信息服务资格证编号(京)-经营性-2014-0008
+					<span>|</span>
+					新出发京零 字第大120007号
+				</p>
+				<p>
+					音像制品经营许可证苏宿批005号
+					<span>|</span>
+					出版物经营许可证编号新出发(苏)批字第N-012号
+					<span>|</span>
+					互联网出版许可证编号新出网证(京)字150号
+				</p>
+				<p>网络文化经营许可证京网文[2014]2148-348号  Copyright © 2004-2016  京东JD.com 闪购  版权所有</p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
